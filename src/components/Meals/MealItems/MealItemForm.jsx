@@ -8,7 +8,7 @@ function MealItemForm(props) {
 
 	const submitHandler = (event) => {
 		event.preventDefault();
-		console.log(amountInputRef.current);
+		// console.log(amountInputRef.current);
 		const amount = amountInputRef.current.value;
 		const amountNo = +amount;
 		if (amount.trim() === '' || amountNo < 1 || amountNo > 5) {
